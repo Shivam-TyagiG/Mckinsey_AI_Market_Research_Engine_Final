@@ -2,8 +2,13 @@ from backend.db.supabase_client import supabase
 
 
 class ResearchJobRepository:
+# here we are defining a class called ResearchJobRepository that will be used to interact with the research_jobs table in the Supabase database. 
+# This class contains methods for creating, listing, retrieving, and updating research jobs.
 
-    def create_job(self, brief: str, created_by: str | None = None) -> dict:
+#this method is used to create a new research job in the database. 
+#It takes a brief description of the research job and an optional created_by parameter that specifies the user who created the job.
+
+    def create_job(self, brief: str, created_by: str | None = None) -> dict: 
         payload = {
             "brief": brief,
             "status": "pending",

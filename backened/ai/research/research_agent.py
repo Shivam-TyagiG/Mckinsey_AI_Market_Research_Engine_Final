@@ -13,7 +13,8 @@ class ResearchAgent:
 
     def research(self, task: ResearchTask) -> list[Source]:
         results = self.search_engine.search(task.query)
-
+# results is a list of dictionaries, where each dictionary represents a search result. 
+# Each dictionary contains information about the search result, such as the URL, title, publisher, published date, and content.
         sources = []
         seen_urls = set()
 

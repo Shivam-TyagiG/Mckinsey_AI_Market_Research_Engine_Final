@@ -51,7 +51,15 @@ class TavilySearchEngine(SearchEngine):
                 self.sleep(delay)
 
     def search(self, query: str) -> list[dict]:
-        response = self._request(
+        response = self._request( 
+            # Search the web using this query and give me a maximum of 2 results. 
+            # so here we are using the TavilyClient to perform a search operation with the given query.
+            # and we are limiting the search results to a maximum of 2. The results will be returned as a list of dictionaries.
+            # result contains properties like url, title, publisher, published_date, and content.
+            # tavily is used for web search and extraction of content from the web pages.
+            # here in _request method we are handling the retry logic for the search operation. If the search operation fails due to a temporary error, it will retry the operation after a delay.
+            # first argument is a lambda function that takes a TavilyClient instance and calls its search method with the provided query, search_depth set to "basic", and max_results set to 2.
+            # second argument is a string "search" that represents the name of the operation being performed. This is used for logging purposes in case of errors or retries.
             lambda client: client.search(
                 query=query,
                 search_depth="basic",

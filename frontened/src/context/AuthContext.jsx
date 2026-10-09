@@ -2,7 +2,8 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { supabase } from "../lib/supabaseClient";
 
 const AuthContext = createContext(undefined);
-
+// the main function of this file is to provide authentication context to the entire application.
+// It manages user authentication state, provides functions for signing up, signing in, and signing out, and makes this information accessible to any component that needs it through the useAuth hook.
 export function AuthProvider({ children }) {
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(true);

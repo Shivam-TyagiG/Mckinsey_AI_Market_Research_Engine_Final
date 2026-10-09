@@ -1,3 +1,6 @@
+* **Video Demo:** [Watch the Project Demo](YOUR_VIDEO_URL)
+* **Hosted Website:** [Visit the Live Website](YOUR_HOSTED_WEBSITE_URL)
+
 # AI Market Research & Strategy Engine
 
 An AI-powered market research application that transforms a research brief into a structured report supported by web sources, extracted evidence, validation results, and citations.
@@ -69,6 +72,11 @@ flowchart TD
     H <--> L
     B <--> M[Supabase / PostgreSQL]
 ```
+## ScreenShots
+<img width="951" height="437" alt="image" src="https://github.com/user-attachments/assets/b657b5b4-3284-45aa-95b1-6ac2ec4b5073" />
+<img width="957" height="440" alt="image" src="https://github.com/user-attachments/assets/3f36422f-d369-4ea7-8d66-004fbb946cc9" />
+<img width="959" height="470" alt="image" src="https://github.com/user-attachments/assets/1f598330-d28e-40ad-878a-2782f4392809" />
+
 
 ## Research Pipeline
 

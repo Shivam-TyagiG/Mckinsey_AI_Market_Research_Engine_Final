@@ -1,4 +1,4 @@
-* **Video Demo:** [Watch the Project Demo](https://github.com/Shivam-TyagiG/Mckinsey_AI_Market_Research_Engine_Final)
+* **Video Demo:** [Watch the Project Demo](https://drive.google.com/file/d/1cQrkNHMx3WUpAxeVB_peYJ7dU31nzOPl/view?usp=sharing)
 * **Hosted Website:** [Visit the Live Website](https://mc-kinsey-ai-market-research-strate.vercel.app/login)
 
 # AI Market Research & Strategy Engine
